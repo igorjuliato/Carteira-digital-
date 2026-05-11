@@ -1,11 +1,11 @@
 package ApiCarteiraDigital.demo.Domain;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;import jakarta.persistence.GeneratedValue;import jakarta.persistence.Id;import lombok.Getter;import lombok.NoArgsConstructor;import lombok.Setter;
+import jakarta.persistence.*;
+import lombok.Data;
+import lombok.Getter;import lombok.NoArgsConstructor;import lombok.Setter;
 
 @Entity
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 public class Usuario {
 
@@ -14,6 +14,9 @@ public class Usuario {
     private Long id;
 
     private String Nome;
+
+    @OneToOne(mappedBy = "Carteira")
+    private Carteira carteira;
 
     @Column(unique = true, nullable = false)
     private String Email;

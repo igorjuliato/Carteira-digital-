@@ -7,7 +7,7 @@ import ApiCarteiraDigital.demo.infra.ExSenhaInconrreta;
 import ApiCarteiraDigital.demo.infra.ExUsuarioInexistente;import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-public class ServiceValidador {
+public class ServiceValidadorSenha {
 
     @Autowired
     private RepositoryUsuario repository;

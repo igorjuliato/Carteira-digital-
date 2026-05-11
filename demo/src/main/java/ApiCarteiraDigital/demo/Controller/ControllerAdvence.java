@@ -1,6 +1,7 @@
 package ApiCarteiraDigital.demo.Controller;
 
 import ApiCarteiraDigital.demo.infra.ExSenhaInconrreta;
+import ApiCarteiraDigital.demo.infra.ExTransacaoInvalida;
 import ApiCarteiraDigital.demo.infra.ExUsuarioInexistente;
 import ApiCarteiraDigital.demo.infra.ExUsuarioJaExistente;
 import org.springframework.http.HttpStatus;
@@ -23,6 +24,11 @@ public class ControllerAdvence {
 
     @ExceptionHandler
     public ResponseEntity<String> exeSenhaIncorret(ExSenhaInconrreta ex){
+        return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body(ex.getMessage());
+    }
+
+    @ExceptionHandler
+    public ResponseEntity<String> exTransacaoInvalida(ExTransacaoInvalida ex){
         return ResponseEntity.status(HttpStatus.NOT_ACCEPTABLE).body(ex.getMessage());
     }
 }

@@ -2,9 +2,8 @@ package ApiCarteiraDigital.demo.Controller;
 
 import ApiCarteiraDigital.demo.Dto.DtoLoginUsuario;
 import ApiCarteiraDigital.demo.Service.SerivceRegistroUsuario;
-import ApiCarteiraDigital.demo.Service.ServiceValidador;
+import ApiCarteiraDigital.demo.Service.ServiceValidadorSenha;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ControllerLogin {
 
     @Autowired
-    private ServiceValidador validador;
+    private ServiceValidadorSenha validador;
 
     @Autowired
     private SerivceRegistroUsuario registroDeUsuario;
