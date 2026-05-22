@@ -1,4 +1,4 @@
-package ApiCarteiraDigital.demo.Service;
+package ApiCarteiraDigital.demo.Service.ControleDeConta;
 
 import ApiCarteiraDigital.demo.Domain.Carteira;
 import ApiCarteiraDigital.demo.Domain.Usuario;

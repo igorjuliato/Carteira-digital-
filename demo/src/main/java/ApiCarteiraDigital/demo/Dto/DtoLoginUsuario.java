@@ -1,5 +1,6 @@
 package ApiCarteiraDigital.demo.Dto;
 
+import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,7 +11,9 @@ public class DtoLoginUsuario {
     @NoArgsConstructor
     @AllArgsConstructor
     public final class Request{
-        private String email;
+        @NotBlank
+        private String login;
+        @NotBlank
         private String senha;
     }
 }

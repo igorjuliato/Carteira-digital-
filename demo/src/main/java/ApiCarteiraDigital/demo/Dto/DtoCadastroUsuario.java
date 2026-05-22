@@ -9,20 +9,25 @@ import org.hibernate.validator.constraints.br.CPF;
 
 import java.time.LocalDate;
 
-public class DtoRegistroUsuario {
+public class DtoCadastroUsuario {
 
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
     @NotBlank
     public final class Request{
+        @NotBlank
         private String Login;
+        @NotBlank
         private String senha;
+        @NotBlank
         private LocalDate dataDeNascimento;
 
+        @NotBlank
         @Email
         private String email;
 
+        @NotBlank
         @CPF
         private String cpf;
     }

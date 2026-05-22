@@ -1,6 +1,7 @@
 package ApiCarteiraDigital.demo.Dto;
 
 import ApiCarteiraDigital.demo.Domain.Transacoes;
+import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,6 +17,7 @@ public class DtoBuscarExtratos {
     @NoArgsConstructor
     @AllArgsConstructor
     public final class Request{
+        @NotBlank
         private Long Id;
     }
 

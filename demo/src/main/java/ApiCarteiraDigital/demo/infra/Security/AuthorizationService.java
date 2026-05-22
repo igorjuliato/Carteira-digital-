@@ -1,4 +1,4 @@
-package ApiCarteiraDigital.demo.Security;
+package ApiCarteiraDigital.demo.infra.Security;
 
 import ApiCarteiraDigital.demo.Repository.RepositoryUsuario;
 import org.springframework.beans.factory.annotation.Autowired;

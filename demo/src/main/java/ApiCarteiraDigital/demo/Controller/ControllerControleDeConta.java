@@ -1,6 +1,9 @@
-package ApiCarteiraDigital.demo.Service.ControleDeConta;
+package ApiCarteiraDigital.demo.Controller;
 
-import ApiCarteiraDigital.demo.Controller.ServiceAtualizarDados;
+import ApiCarteiraDigital.demo.Dto.DtoAtualizarDadosDaConta;
+import ApiCarteiraDigital.demo.Service.ControleDeConta.ServiceAtualizarDados;
+import ApiCarteiraDigital.demo.Service.ControleDeConta.ServiceDeletar;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -22,7 +25,9 @@ public class ControllerControleDeConta {
       return ResponseEntity.noContent().build();
     }
 
-    @PutMapping("/atualizarDadosConta")
-    public ResponseEntity AtualizarDados()
+    @PutMapping("{id}/atualizarDadosConta")
+    public ResponseEntity AtualizarDados(@PathVariable Long id, @Valid DtoAtualizarDadosDaConta dto){
+        atualizar.DadosDaConta(id, dto);
+    }
 
 }

@@ -5,22 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d3ab8e3-5b3e-4fee-8d3f-0bb0e621aa83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerTransacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Domain/Carteira.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Domain/Transacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoBuscarExtratos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoTransacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Repository/RepositoryCarteira.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Repository/RepositoryTransacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceExtratos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceValidacaoDeTransicaoBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/infra/ExTransacaoInvalida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerControleDeConta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Domain/UsuarioRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoAtualizarDadosDaConta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoCadastroUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceAtualizarDados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceDeletar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceRegistroDeUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/RegrasDeNegocios/ServiceTaxasDeJuros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/RegrasDeNegocios/ServiceValidacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/infra/Security/AuthorizationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/infra/Security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/infra/Security/ServiceToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerAdvence.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerAdvence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerDeCarteira.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerDeCarteira.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerTransacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerTransacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Domain/Carteira.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Domain/Carteira.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Domain/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Domain/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceValidador.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceValidadorSenha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoBuscarExtratos.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoBuscarExtratos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoLoginUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoLoginUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoTransacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoTransacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Repository/RepositoryUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Repository/RepositoryUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Security/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/SerivceRegistroUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceExtratos.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceExtratos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceTransacaoDebito.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/Transacoes/ServiceTransacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceValidacaoDeTransicaoBancaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceValidadorSenha.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +61,7 @@
       <list>
         <option value="package-info" />
         <option value="Exception" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>

@@ -1,4 +1,4 @@
-package ApiCarteiraDigital.demo.Service;
+package ApiCarteiraDigital.demo.Service.RegrasDeNegocios;
 
 import ApiCarteiraDigital.demo.Dto.DtoCadastroUsuario;
 import ApiCarteiraDigital.demo.Dto.DtoTransacao;

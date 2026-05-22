@@ -1,4 +1,4 @@
-package ApiCarteiraDigital.demo.Service;
+package ApiCarteiraDigital.demo.infra.Security;
 
 import ApiCarteiraDigital.demo.Domain.Usuario;
 import org.springframework.stereotype.Service;
@@ -7,6 +7,6 @@ import org.springframework.stereotype.Service;
 public class ServiceToken {
 
     public String GerarToken(Usuario ususario){
-        
+
     }
 }
