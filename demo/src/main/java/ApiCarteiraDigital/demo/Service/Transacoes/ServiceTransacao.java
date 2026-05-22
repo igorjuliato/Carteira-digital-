@@ -8,13 +8,15 @@ import ApiCarteiraDigital.demo.Repository.RepositoryUsuario;
 import ApiCarteiraDigital.demo.infra.ExUsuarioInexistente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;
 
 @Service
-public class ServiceTransacaoDebito {
+public class ServiceTransacao {
 
-    private ServiceValidacaoDeTransicaoBancaria validacao;
+    @Autowired
+    private ServiceValidacao validacao;
 
     @Autowired
     private RepositoryCarteira carteira;
@@ -23,13 +25,14 @@ public class ServiceTransacaoDebito {
     private RepositoryUsuario usuario;
 
     @Autowired
-    private DtoTransacao.Response response;
+    private DtoTransacao.Debito response;
 
-    public DtoTransacao.Response Debito(DtoTransacao.Request dto){
+    @Transactional
+    public void Debito(DtoTransacao.Debito dto){
         boolean exist = usuario.existsById(dto.getDestinatarioId());
         if (exist == false) throw new ExUsuarioInexistente("esse usuario não existe");
 
-        validacao.Validar(dto);
+        validacao.ValidadorDebito(dto);
 
         Optional<Usuario> remetente = usuario.findById(dto.getRemetenteId());
         Optional<Usuario> destinatario = usuario.findById(dto.getDestinatarioId());
@@ -42,10 +45,10 @@ public class ServiceTransacaoDebito {
 
         carteira.save(carteiraDestinatario);
         carteira.save(carteiraRemetente);
+    }
 
-        response.setMensagem("foi relizado uma transferencia de " +
-                dto.getValor() + "para " + destinatario.get().getNome());
-
-        return response;
+    @Transactional
+    public void Credito(DtoTransacao.Credito dto ){
+      validacao.ValidacaoCredito(dto);
     }
 }
