@@ -6,7 +6,7 @@ import ApiCarteiraDigital.demo.Domain.UsuarioRole;
 import ApiCarteiraDigital.demo.Dto.DtoCadastroUsuario;
 import ApiCarteiraDigital.demo.Repository.RepositoryCarteira;
 import ApiCarteiraDigital.demo.Repository.RepositoryUsuario;
-import ApiCarteiraDigital.demo.Service.RegrasDeNegocios.ServiceValidacao;
+import ApiCarteiraDigital.demo.Service.ServiceValidacao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

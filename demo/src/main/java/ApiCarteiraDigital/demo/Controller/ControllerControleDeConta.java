@@ -26,8 +26,10 @@ public class ControllerControleDeConta {
     }
 
     @PutMapping("{id}/atualizarDadosConta")
-    public ResponseEntity AtualizarDados(@PathVariable Long id, @Valid DtoAtualizarDadosDaConta dto){
+    public ResponseEntity AtualizarDados(@PathVariable Long id, @Valid DtoAtualizarDadosDaConta.Request dto){
         atualizar.DadosDaConta(id, dto);
+
+        return ResponseEntity.ok().build();
     }
 
 }

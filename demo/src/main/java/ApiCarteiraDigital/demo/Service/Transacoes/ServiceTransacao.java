@@ -5,13 +5,14 @@ import ApiCarteiraDigital.demo.Domain.Usuario;
 import ApiCarteiraDigital.demo.Dto.DtoTransacao;
 import ApiCarteiraDigital.demo.Repository.RepositoryCarteira;
 import ApiCarteiraDigital.demo.Repository.RepositoryUsuario;
-import ApiCarteiraDigital.demo.Service.RegrasDeNegocios.ServiceTaxasDeJuros;
-import ApiCarteiraDigital.demo.Service.RegrasDeNegocios.ServiceValidacao;
+import ApiCarteiraDigital.demo.Service.ServiceTaxasDeJuros;
+import ApiCarteiraDigital.demo.Service.ServiceValidacao;
 import ApiCarteiraDigital.demo.infra.ExUsuarioInexistente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.math.BigDecimal;
 import java.util.Optional;
 
 @Service
@@ -24,20 +25,18 @@ public class ServiceTransacao {
     private RepositoryCarteira carteira;
 
     @Autowired
-    private RepositoryUsuario usuario;
+    private RepositoryUsuario repositoryUsuario;
 
     @Autowired
     private ServiceTaxasDeJuros taxaJuros;
 
     @Transactional
     public void Debito(DtoTransacao.Debito dto){
-        boolean exist = usuario.existsById(dto.getDestinatarioId());
-        if (exist == false) throw new ExUsuarioInexistente("esse usuario não existe");
-
+        validacao.ValidacaoDeUsuarioDebito(dto);
         validacao.ValidadorDebito(dto);
 
-        Optional<Usuario> remetente = usuario.findById(dto.getRemetenteId());
-        Optional<Usuario> destinatario = usuario.findById(dto.getDestinatarioId());
+        Optional<Usuario> destinatario = repositoryUsuario.findById(dto.getDestinatarioId());
+        Optional<Usuario> remetente = repositoryUsuario.findById(dto.getRemetenteId());
 
         Carteira carteiraRemetente = remetente.get().getCarteira();
         Carteira carteiraDestinatario = destinatario.get().getCarteira();
@@ -51,6 +50,7 @@ public class ServiceTransacao {
 
     @Transactional
     public void Credito(DtoTransacao.Credito dto ){
+      validacao.ValidacaoDeUsuarioCredito(dto);
       validacao.ValidacaoCredito(dto);
 
       if(dto.getParcelas() > 6){

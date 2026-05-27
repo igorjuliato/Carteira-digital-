@@ -21,7 +21,7 @@ public class Usuario implements UserDetails {
 
     private String Nome;
 
-    @OneToOne(mappedBy = "Carteira")
+    @OneToOne(mappedBy = "DonoCarteira")
     private Carteira carteira;
 
     @Column(unique = true, nullable = false)

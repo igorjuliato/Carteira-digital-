@@ -1,4 +1,4 @@
-package ApiCarteiraDigital.demo.Service.RegrasDeNegocios;
+package ApiCarteiraDigital.demo.Service;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

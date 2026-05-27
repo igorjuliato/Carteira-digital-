@@ -5,34 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d3ab8e3-5b3e-4fee-8d3f-0bb0e621aa83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerControleDeConta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Domain/UsuarioRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoAtualizarDadosDaConta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoCadastroUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceAtualizarDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceDeletar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceRegistroDeUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/RegrasDeNegocios/ServiceTaxasDeJuros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/RegrasDeNegocios/ServiceValidacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/infra/Security/AuthorizationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/infra/Security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/infra/Security/ServiceToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/ApiCarteiraDigital/demo/Service/TestTaxasDeJuros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/ApiCarteiraDigital/demo/Service/TestValidacaoDebito.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerDeCarteira.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerDeCarteira.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerTransacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerTransacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Domain/Carteira.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Domain/Carteira.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerControleDeConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerControleDeConta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Domain/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Domain/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoBuscarExtratos.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoBuscarExtratos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoLoginUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoLoginUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoAtualizarDadosDaConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoAtualizarDadosDaConta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoTransacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoTransacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Repository/RepositoryUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Repository/RepositoryUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Security/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/SerivceRegistroUsuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceExtratos.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceExtratos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceTransacaoDebito.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/Transacoes/ServiceTransacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceValidacaoDeTransicaoBancaria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceValidadorSenha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Mapper/MapperUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Mapper/MapperUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceAtualizarDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceAtualizarDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceRegistroDeUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceRegistroDeUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/RegrasDeNegocios/ServiceTaxasDeJuros.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceTaxasDeJuros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/RegrasDeNegocios/ServiceValidacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceValidacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/Transacoes/ServiceTransacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/Transacoes/ServiceTransacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/infra/Security/AuthorizationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/infra/Security/AuthorizationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/infra/Security/ServiceToken.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,25 +72,124 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.DemoApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/11igo/OneDrive/Documentos/projetos/carteira digital&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.TestTransicao.teste1DebitoValido.executor": "Run",
+    "JUnit.TestTransicao.teste1DebitosIValidos.executor": "Run",
+    "JUnit.TestTransicao.teste2DeValidacaoDeCredito.executor": "Run",
+    "JUnit.TestTransicao.testeDeCredito.executor": "Run",
+    "JUnit.TestTransicao.testeDeValidacaoDeCredito.executor": "Run",
+    "JUnit.TestValidacao.teste1DeValidacaoDeUsuario.executor": "Run",
+    "JUnit.TestValidacao.teste2DeErroValidacaoDeUsuario.executor": "Run",
+    "JUnit.TestValidacao.teste3DeValidacaoDeUsuario.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.DemoApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/11igo/OneDrive/Documentos/projetos/carteira digital",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ApiCarteiraDigital.demo.Controller" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestValidacaoDebito.teste1DeValidacaoDeUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiCarteiraDigital.demo.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiCarteiraDigital.demo.Service" />
+      <option name="MAIN_CLASS_NAME" value="ApiCarteiraDigital.demo.Service.TestValidacaoDebito" />
+      <option name="METHOD_NAME" value="teste1DeValidacaoDeUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestValidacaoDebito.teste2DeErroValidacaoDeUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiCarteiraDigital.demo.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiCarteiraDigital.demo.Service" />
+      <option name="MAIN_CLASS_NAME" value="ApiCarteiraDigital.demo.Service.TestValidacaoDebito" />
+      <option name="METHOD_NAME" value="teste2DeErroValidacaoDeUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestValidacaoDebito.teste2DeValidacaoDeCredito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiCarteiraDigital.demo.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiCarteiraDigital.demo.Service" />
+      <option name="MAIN_CLASS_NAME" value="ApiCarteiraDigital.demo.Service.TestValidacaoDebito" />
+      <option name="METHOD_NAME" value="teste2DeValidacaoDeCredito" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestValidacaoDebito.teste3DeValidacaoDeUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiCarteiraDigital.demo.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiCarteiraDigital.demo.Service" />
+      <option name="MAIN_CLASS_NAME" value="ApiCarteiraDigital.demo.Service.TestValidacaoDebito" />
+      <option name="METHOD_NAME" value="teste3DeValidacaoDeUsuario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestValidacaoDebito.testeDeValidacaoDeCredito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiCarteiraDigital.demo.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiCarteiraDigital.demo.Service" />
+      <option name="MAIN_CLASS_NAME" value="ApiCarteiraDigital.demo.Service.TestValidacaoDebito" />
+      <option name="METHOD_NAME" value="testeDeValidacaoDeCredito" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestValidacaoDebito.teste3DeValidacaoDeUsuario" />
+        <item itemvalue="JUnit.TestValidacaoDebito.teste2DeErroValidacaoDeUsuario" />
+        <item itemvalue="JUnit.TestValidacaoDebito.teste1DeValidacaoDeUsuario" />
+        <item itemvalue="JUnit.TestValidacaoDebito.teste2DeValidacaoDeCredito" />
+        <item itemvalue="JUnit.TestValidacaoDebito.testeDeValidacaoDeCredito" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -121,5 +207,20 @@
       <updated>1776961193165</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/demo/src/test/java/ApiCarteiraDigital/demo/Service/TestValidacaoDebito.java</url>
+          <line>87</line>
+          <properties class="ApiCarteiraDigital.demo.Service.TestValidacaoDebito" method="teste2DeErroValidacaoDeUsuario">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

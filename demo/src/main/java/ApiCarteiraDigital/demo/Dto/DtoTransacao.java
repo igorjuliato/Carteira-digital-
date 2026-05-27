@@ -1,6 +1,7 @@
 package ApiCarteiraDigital.demo.Dto;
 
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,23 +14,28 @@ public class DtoTransacao {
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
-    public final class Debito{
-        @NotBlank
+    public static final class Debito{
+        @NotNull
         private Long remetenteId;
-        @NotBlank
+        @NotNull
         private Long destinatarioId;
-        @NotBlank
+        @NotNull
         private BigDecimal valor;
     }
 
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
-    public final class Credito{
+    public static final class Credito{
+        @NotNull
         private Long remetenteId;
+        @NotNull
         private Long destinatarioId;
+        @NotNull
         private BigDecimal valorTotal;
+        @NotNull
         private int parcelas;
+        @NotNull
         private BigDecimal ValorDeEntrada;
     }
 }

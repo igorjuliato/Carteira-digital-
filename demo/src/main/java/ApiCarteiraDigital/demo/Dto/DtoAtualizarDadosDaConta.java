@@ -21,6 +21,6 @@ public class DtoAtualizarDadosDaConta {
         private String email;
 
         @CPF
-        private String cpf
+        private String cpf;
     }
 }
