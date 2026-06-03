@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d3ab8e3-5b3e-4fee-8d3f-0bb0e621aa83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/src/test/java/ApiCarteiraDigital/demo/Service/TestTaxasDeJuros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/test/java/ApiCarteiraDigital/demo/Service/TestValidacaoDebito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/ApiCarteiraDigital/demo/Service/TestControllerLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerControleDeConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Controller/ControllerControleDeConta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Domain/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Domain/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoAtualizarDadosDaConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoAtualizarDadosDaConta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoTransacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoTransacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Mapper/MapperUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Mapper/MapperUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceAtualizarDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceAtualizarDados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceRegistroDeUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ControleDeConta/ServiceRegistroDeUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/RegrasDeNegocios/ServiceTaxasDeJuros.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceTaxasDeJuros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/RegrasDeNegocios/ServiceValidacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/ServiceValidacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoLoginUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Dto/DtoLoginUsuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/Transacoes/ServiceTransacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/Service/Transacoes/ServiceTransacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/infra/Security/AuthorizationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/infra/Security/AuthorizationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/ApiCarteiraDigital/demo/infra/Security/ServiceToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/test/java/ApiCarteiraDigital/demo/Service/TestTaxasDeJuros.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/test/java/ApiCarteiraDigital/demo/Service/TestTaxasDeJuros.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +65,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.TestControllerLogin.Test1DeLogin.executor": "Run",
+    "JUnit.TestControllerLogin.executor": "Run",
     "JUnit.TestTransicao.teste1DebitoValido.executor": "Run",
     "JUnit.TestTransicao.teste1DebitosIValidos.executor": "Run",
     "JUnit.TestTransicao.teste2DeValidacaoDeCredito.executor": "Run",
@@ -100,7 +93,38 @@
       <recent name="ApiCarteiraDigital.demo.Controller" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestControllerLogin">
+    <configuration name="TestControllerLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiCarteiraDigital.demo.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiCarteiraDigital.demo.Service" />
+      <option name="MAIN_CLASS_NAME" value="ApiCarteiraDigital.demo.Service.TestControllerLogin" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestControllerLogin.Test1DeLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApiCarteiraDigital.demo.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ApiCarteiraDigital.demo.Service" />
+      <option name="MAIN_CLASS_NAME" value="ApiCarteiraDigital.demo.Service.TestControllerLogin" />
+      <option name="METHOD_NAME" value="Test1DeLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestValidacaoDebito.teste1DeValidacaoDeUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
@@ -133,22 +157,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestValidacaoDebito.teste2DeValidacaoDeCredito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ApiCarteiraDigital.demo.Service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ApiCarteiraDigital.demo.Service" />
-      <option name="MAIN_CLASS_NAME" value="ApiCarteiraDigital.demo.Service.TestValidacaoDebito" />
-      <option name="METHOD_NAME" value="teste2DeValidacaoDeCredito" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestValidacaoDebito.teste3DeValidacaoDeUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
@@ -165,29 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestValidacaoDebito.testeDeValidacaoDeCredito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ApiCarteiraDigital.demo.Service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ApiCarteiraDigital.demo.Service" />
-      <option name="MAIN_CLASS_NAME" value="ApiCarteiraDigital.demo.Service.TestValidacaoDebito" />
-      <option name="METHOD_NAME" value="testeDeValidacaoDeCredito" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestControllerLogin" />
+        <item itemvalue="JUnit.TestControllerLogin.Test1DeLogin" />
         <item itemvalue="JUnit.TestValidacaoDebito.teste3DeValidacaoDeUsuario" />
         <item itemvalue="JUnit.TestValidacaoDebito.teste2DeErroValidacaoDeUsuario" />
         <item itemvalue="JUnit.TestValidacaoDebito.teste1DeValidacaoDeUsuario" />
-        <item itemvalue="JUnit.TestValidacaoDebito.teste2DeValidacaoDeCredito" />
-        <item itemvalue="JUnit.TestValidacaoDebito.testeDeValidacaoDeCredito" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +206,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/demo/src/test/java/ApiCarteiraDigital/demo/Service/TestValidacaoDebito.java</url>
           <line>87</line>
-          <properties class="ApiCarteiraDigital.demo.Service.TestValidacaoDebito" method="teste2DeErroValidacaoDeUsuario">
+          <properties class="ApiCarteiraDigital.demo.Service.TestValidacaoDebito">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

@@ -10,7 +10,7 @@ public class DtoLoginUsuario {
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
-    public final class Request{
+    public static final class Request{
         @NotBlank
         private String login;
         @NotBlank

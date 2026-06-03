@@ -63,7 +63,7 @@ public class ServiceTransacao {
       Carteira carteiraDestinatario = carteira.findById(dto.getDestinatarioId()).orElseThrow();
 
       carteiraRemetente.setDinheiro(carteiraRemetente.getDinheiro().subtract(dto.getValorDeEntrada()));
-      carteiraDestinatario.setDinheiro(carteiraRemetente.getDinheiro().add(dto.getValorDeEntrada()));
+      carteiraDestinatario.setDinheiro(carteiraDestinatario.getDinheiro().add(dto.getValorDeEntrada()));
 
       carteira.save(carteiraRemetente);
       carteira.save(carteiraDestinatario);
